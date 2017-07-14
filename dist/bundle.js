@@ -12931,7 +12931,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "\n.message{\r\n    color:red;\r\n    font-size:36px;\r\n    font-weight:blod;\n}\r\n", ""]);
+exports.push([module.i, "\n.message{\n    color:red;\n    font-size:36px;\n    font-weight:blod;\n}\n", ""]);
 
 // exports
 
@@ -12945,7 +12945,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -12955,9 +12955,6 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-//
-//
-//
 //
 //
 //
@@ -13010,7 +13007,7 @@ if (false) {
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('h2', [_vm._v("hello vue")]), _vm._v(" "), _c('router-view')], 1)
+  return _c('router-view')
 }
 var staticRenderFns = []
 render._withStripped = true
